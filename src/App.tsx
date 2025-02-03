@@ -27,7 +27,9 @@ export default function App() {
       <SocialLinks />
       <VacanciesLinks />
       <ContactLinks />
-      <p>Powered by React</p>
+      <p>
+        Powered by <a href="https://react.dev/">React</a>
+      </p>
     </main>
   );
 }
