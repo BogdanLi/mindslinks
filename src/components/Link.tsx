@@ -1,7 +1,7 @@
 type Props = {
   href: string;
   label: string;
-  icon?: React.ReactNode;
+  icon?: string;
   variant?: "primary" | "secondary";
 };
 
@@ -19,7 +19,7 @@ export default function Link({
       >
         {icon && (
           <div className="border-dark-border absolute top-0 left-0 border-r p-4">
-            {icon}
+            <img className="fill-milk stroke-milk" src={icon} alt={label} />
           </div>
         )}
         <span className="grow py-4 text-center font-medium">{label}</span>
