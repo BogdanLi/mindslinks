@@ -1,6 +1,6 @@
 import Heading from "./Heading";
 
-import { Instagram, Linkedin, Facebook } from "lucide-react";
+import { Instagram, Linkedin, Facebook, Globe } from "lucide-react";
 import Link from "./Link";
 
 const links = [
@@ -21,6 +21,12 @@ const links = [
     label: "Facebook",
     icon: <Facebook />,
     href: "https://www.facebook.com/profile.php?id=61562789234111&locale=ru_RU",
+  },
+  {
+    name: "website",
+    label: "Website",
+    icon: <Globe />,
+    href: "https://mindstech.io/",
   },
 ];
 
