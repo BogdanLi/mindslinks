@@ -5,7 +5,7 @@ import VacanciesLinks from "./components/VacanciesLinks";
 
 export default function App() {
   return (
-    <main className="bg-primary h-dvh space-y-4 p-8 text-center text-white">
+    <main className="mx-auto h-dvh max-w-md space-y-4 p-8 text-center text-white">
       <Profile />
       <SocialLinks />
       <VacanciesLinks />
