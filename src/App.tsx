@@ -15,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <main className="border-dark mx-auto h-dvh max-w-md space-y-4 p-8 text-center text-white sm:border">
+    <main className="border-dark mx-auto min-h-dvh max-w-md space-y-4 px-8 pt-8 pb-4 text-center text-white sm:border">
       {isSnowing && (
         <Snowfall
           style={{ zIndex: 999 }}
@@ -27,6 +27,7 @@ export default function App() {
       <SocialLinks />
       <VacanciesLinks />
       <ContactLinks />
+      <p>Powered by React</p>
     </main>
   );
 }
