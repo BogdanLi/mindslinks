@@ -10,7 +10,7 @@ export default function Profile() {
         className="aspect-square w-24 rounded-full"
       />
       <div className="my-4 text-center">
-        <Heading>MindTech.io</Heading>
+        <Heading>MindsTech.io</Heading>
         <p>Школа непрерывного развития</p>
       </div>
       <div className="h-0.5 w-full bg-white" />

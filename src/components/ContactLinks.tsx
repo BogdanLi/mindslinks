@@ -38,7 +38,7 @@ export default function ContactLinks() {
       <Heading>Contact Us</Heading>
       <div className="grid grid-cols-2 gap-4">
         {messengers.map((messenger) => (
-          <Link variant="secondary" {...messenger} />
+          <Link variant="secondary" key={messenger.name} {...messenger} />
         ))}
       </div>
       <div className="space-y-4">
