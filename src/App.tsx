@@ -1,8 +1,8 @@
 import { useState } from "react";
+
 import ContactLinks from "./components/ContactLinks";
 import Profile from "./components/Profile";
 import SocialLinks from "./components/SocialLinks";
-import VacanciesLinks from "./components/VacanciesLinks";
 import Snowfall from "react-snowfall";
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
       )}
       <Profile />
       <SocialLinks />
-      <VacanciesLinks />
+      {/* <VacanciesLinks /> */}
       <ContactLinks />
       <p>
         Powered by <a href="https://react.dev/">React</a>
