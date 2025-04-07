@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# `mindslinks`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple web page for hosting essential links for [mindstech.io](https://mindstech.io)
 
-Currently, two official plugins are available:
+# 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View live demo here](https://minds-links.vercel.app/)
 
-## Expanding the ESLint configuration
+# 🛠️ Tech stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🚀 `React.js` + `Typescript`
+- ✨ `TailwindCSS`
+- 🧰 `prettier` + `prettier-plugin-tailwindcs`
+- 🎩 `lucide-react`
+- ❄️ `react-snowfall` (optional)
 
-- Configure the top-level `parserOptions` property like this:
+# 👷 Get Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone the repo
+
+```bash
+git clone https://github.com/BogdanLi/minds-links.git
+
+cd mindslinks
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Install dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
 ```
+
+3. Run locally
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm run dev
+```
+
+4. Customize
+   Edit components to add your infromation
+
+# 📃 License
+
+MIT License
