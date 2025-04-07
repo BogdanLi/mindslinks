@@ -10,7 +10,7 @@ Simple web page hosting essential links for [mindstech.io](https://mindstech.io)
 
 # 🌐 Demo
 
-<div style="display: flex; gap: 1rem;">
+<div style="display: flex; gap: 1rem; align-items: start;">
     <img src="/public/preview.png" width="256px" />
     <a href="https://minds-links.vercel.app/">View live demo here</a>
 </div>
