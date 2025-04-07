@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import Snowfall from "react-snowfall";
 
 const [snowflake, greenLeaf, sun, orangeLeaf] = [
@@ -8,10 +9,10 @@ const [snowflake, greenLeaf, sun, orangeLeaf] = [
   document.createElement("img"),
 ];
 
-snowflake.src = "/snowflake.svg";
-greenLeaf.src = "/greenLeaf.svg";
-sun.src = "/sun.svg";
-orangeLeaf.src = "/orangeLeaf.svg";
+snowflake.src = "/flakes/snowflake.svg";
+greenLeaf.src = "/flakes/greenLeaf.svg";
+sun.src = "/flakes/sun.svg";
+orangeLeaf.src = "/flakes/orangeLeaf.svg";
 
 const icons = {
   winter: [snowflake, snowflake],
