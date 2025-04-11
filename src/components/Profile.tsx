@@ -21,10 +21,10 @@ export default function Profile() {
         />
       </div>
       <div className="my-4 text-center">
-        <Heading>MindTech.io</Heading>
+        <Heading>MindsTech.io</Heading>
         <p>Школа непрерывного развития</p>
       </div>
-      <div className="h-0.5 w-full bg-white" />
+      <div className="bg-primary h-0.5 w-full" />
     </div>
   );
 }

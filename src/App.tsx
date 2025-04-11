@@ -13,7 +13,7 @@ export default function App() {
   }, []);
 
   return (
-    <main className="border-dark mx-auto flex min-h-dvh max-w-md flex-col justify-between space-y-4 px-8 pt-8 pb-4 text-center text-white sm:border">
+    <main className="border-dark text-primary mx-auto flex min-h-dvh max-w-md flex-col justify-between space-y-4 px-8 pt-8 pb-4 text-center sm:border">
       {show && <Fall />}
       <div className="space-y-5">
         <Profile />
