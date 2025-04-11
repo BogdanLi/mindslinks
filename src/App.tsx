@@ -9,7 +9,7 @@ export default function App() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShow(true), 5000);
+    setTimeout(() => setShow(true), 10000);
   }, []);
 
   return (

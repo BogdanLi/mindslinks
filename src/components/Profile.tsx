@@ -8,7 +8,7 @@ export default function Profile() {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <div className="flex w-full flex-col items-center justify-center">
+    <div className="text-milk flex w-full flex-col items-center justify-center">
       <div className="relative h-24 w-24">
         {!loaded && (
           <div className="absolute top-0 left-0 z-10 h-24 w-24 animate-pulse rounded-full bg-gray-300" />
@@ -24,7 +24,7 @@ export default function Profile() {
         <Heading>MindsTech.io</Heading>
         <p>Школа непрерывного развития</p>
       </div>
-      <div className="bg-primary h-0.5 w-full" />
+      <div className="bg-milk h-0.5 w-full" />
     </div>
   );
 }

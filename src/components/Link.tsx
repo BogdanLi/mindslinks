@@ -18,11 +18,11 @@ export default function Link({
         className="bg-dark relative flex justify-center gap-4 rounded-xl"
       >
         {icon && (
-          <div className="border-dark-border absolute top-0 left-0 border-r p-4 text-[#fafafa]">
+          <div className="border-dark-border text-milk absolute top-0 left-0 border-r p-4">
             {icon}
           </div>
         )}
-        <span className="grow py-4 text-center font-medium text-[#fafafa]">
+        <span className="text-milk grow py-4 text-center font-medium">
           {label}
         </span>
       </a>
@@ -32,10 +32,10 @@ export default function Link({
   return (
     <a
       href={href}
-      className="bg-dark flex flex-col items-center justify-center rounded-xl px-4 py-2 text-[#fafafa]"
+      className="bg-dark flex flex-col items-center justify-center rounded-xl px-4 py-2"
     >
-      <div>{icon}</div>
-      <span className="grow text-center font-medium">{label}</span>
+      <div className="text-milk">{icon}</div>
+      <span className="text-milk grow text-center font-medium">{label}</span>
     </a>
   );
 }

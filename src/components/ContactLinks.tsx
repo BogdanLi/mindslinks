@@ -34,7 +34,7 @@ const contacts = [
 
 export default function ContactLinks() {
   return (
-    <div className="space-y-4">
+    <div className="text-milk space-y-4">
       <Heading>Contact Us</Heading>
       <div className="grid grid-cols-2 gap-4">
         {messengers.map((messenger) => (

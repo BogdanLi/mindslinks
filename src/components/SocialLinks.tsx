@@ -32,7 +32,7 @@ const links = [
 
 export default function SocialLinks() {
   return (
-    <div className="space-y-4">
+    <div className="text-milk space-y-4">
       <Heading>Social Media</Heading>
       <div className="space-y-4">
         {links.map((link) => (
