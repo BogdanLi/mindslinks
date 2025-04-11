@@ -24,7 +24,7 @@ const links = [
   },
   {
     name: "website",
-    label: "Website",
+    label: "Сайт",
     icon: <Globe />,
     href: "https://mindstech.io/",
   },
@@ -33,7 +33,7 @@ const links = [
 export default function SocialLinks() {
   return (
     <div className="text-milk space-y-4">
-      <Heading>Social Media</Heading>
+      <Heading>Социальные сети</Heading>
       <div className="space-y-4">
         {links.map((link) => (
           <Link

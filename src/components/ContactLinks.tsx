@@ -26,7 +26,7 @@ const contacts = [
   },
   {
     name: "phone",
-    label: "Phone number",
+    label: "Номер телефона",
     href: "tel:+992715011111",
     icon: <Phone />,
   },
@@ -35,7 +35,7 @@ const contacts = [
 export default function ContactLinks() {
   return (
     <div className="text-milk space-y-4">
-      <Heading>Contact Us</Heading>
+      <Heading>Контакты</Heading>
       <div className="grid grid-cols-2 gap-4">
         {messengers.map((messenger) => (
           <Link variant="secondary" {...messenger} />

@@ -20,7 +20,7 @@ export default function App() {
         <SocialLinks />
         <ContactLinks />
       </div>
-      <p>
+      <p className="text-milk">
         Powered by <a href="https://react.dev/">React</a>
       </p>
     </main>
