@@ -14,7 +14,7 @@ const links = [
     name: "linkedin",
     label: "LinkedIn",
     icon: <Linkedin />,
-    href: "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F104574328%2Fadmin%2Finbox%2F",
+    href: "https://www.linkedin.com/company/mindsedtech/",
   },
   {
     name: "facebook",

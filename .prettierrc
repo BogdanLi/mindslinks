@@ -1,3 +1,18 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-imports", "prettier-plugin-tailwindcss"],
+  "importOrder": [
+    "^react$",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<TYPES>",
+    "<TYPES>^[.]",
+    "",
+    "^[./]",
+    "",
+    "lucide-react",
+    "",
+    "^(?!.*[.]css$)[./].*$",
+    ".css$"
+  ]
 }

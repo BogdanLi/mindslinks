@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
-
 import Snowfall from "react-snowfall";
+import { useEffect, useState } from "react";
 
 const [snowflake, greenLeaf, sun, orangeLeaf] = [
   document.createElement("img"),
